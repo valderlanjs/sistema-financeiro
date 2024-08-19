@@ -35,7 +35,7 @@ const routes = [
     },
     {
       href: '/settings',
-      label: 'Configuraões'
+      label: 'Configurações'
     }, 
 ]
 
@@ -46,6 +46,8 @@ export const Navigation = () => {
     const pathname = usePathname();
     const isMobile = useMedia("(max-width: 1024px)", false);
 
+    
+
     const onClick = (href: string) => {
         router.push(href)
         setIsOpen(false)
@@ -54,6 +56,7 @@ export const Navigation = () => {
     if (isMobile) {
         return (
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
+                {/** icone do menu na versão mobile*/}
                 <SheetTrigger >
                     <Button
                       variant='outline'
@@ -63,6 +66,7 @@ export const Navigation = () => {
                         <Menu className="size-4" />
                     </Button>
                 </SheetTrigger>
+                {/** barra de navegação versão mobile */}
                 <SheetContent side='left' className='px-2'>
                     <nav className="flex flex-col gap-y-2 pt-6">
                         {routes.map((route) => (
@@ -70,6 +74,7 @@ export const Navigation = () => {
                                 key={route.href}
                                 variant={route.href === pathname ? 'secondary' : 'ghost'}
                                 onClick={() => onClick(route.href)}
+                                className="w-full justify-start"
                             >
                                 {route.label}
                             </Button>
@@ -77,8 +82,8 @@ export const Navigation = () => {
                     </nav>
                 </SheetContent>
             </Sheet>
-        )
-    }
+        );
+    };
 
     return (
         <nav className="hidden lg:flex items-center gap-x-2 overflow-x-auto">
