@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1724164292620,
+      "tag": "0000_parched_vulture",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1724168664732,
+      "tag": "0001_busy_tinkerer",
+      "breakpoints": true
+    }
+  ]
+}
