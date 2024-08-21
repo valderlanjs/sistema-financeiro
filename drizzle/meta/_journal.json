@@ -15,6 +15,13 @@
       "when": 1724250445876,
       "tag": "0001_amazing_jubilee",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1724251013910,
+      "tag": "0002_orange_princess_powerful",
+      "breakpoints": true
     }
   ]
 }
