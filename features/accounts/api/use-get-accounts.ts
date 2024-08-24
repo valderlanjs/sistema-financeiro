@@ -19,4 +19,3 @@ export const useGetAccounts = () => {
     return query;
 };
 
-//2:27:13
