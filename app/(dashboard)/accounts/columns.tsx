@@ -1,5 +1,7 @@
 "use client";
 
+import { Actions } from "./actions";
+
 import { InferResponseType } from "hono";
 
 import { Button } from "@/components/ui/button";
@@ -50,9 +52,10 @@ export const columns: ColumnDef<ResponseType>[] = [
       );
     },
   },
+  {
+    id: "Ações",
+    cell: ({ row }) => <Actions id={row.original.id} />
+  }
   
-  /*{
-    accessorKey: "quantidade",
-    header: "Quantidade",
-  },*/
+  
 ];
