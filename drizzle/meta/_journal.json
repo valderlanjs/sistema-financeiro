@@ -43,6 +43,13 @@
       "when": 1725033619277,
       "tag": "0005_jittery_betty_brant",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1725888937226,
+      "tag": "0006_chunky_wallop",
+      "breakpoints": true
     }
   ]
 }
