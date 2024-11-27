@@ -1,47 +1,19 @@
 {
-  "version": "7",
-  "dialect": "postgresql",
+  "version": "5",
+  "dialect": "pg",
   "entries": [
     {
       "idx": 0,
-      "version": "7",
-      "when": 1724249144606,
-      "tag": "0000_robust_photon",
+      "version": "5",
+      "when": 1724164292620,
+      "tag": "0000_parched_vulture",
       "breakpoints": true
     },
     {
       "idx": 1,
       "version": "7",
-      "when": 1724250445876,
-      "tag": "0001_amazing_jubilee",
-      "breakpoints": true
-    },
-    {
-      "idx": 2,
-      "version": "7",
-      "when": 1724251013910,
-      "tag": "0002_orange_princess_powerful",
-      "breakpoints": true
-    },
-    {
-      "idx": 3,
-      "version": "7",
-      "when": 1725026470793,
-      "tag": "0003_quick_pestilence",
-      "breakpoints": true
-    },
-    {
-      "idx": 4,
-      "version": "7",
-      "when": 1725033546544,
-      "tag": "0004_clammy_nitro",
-      "breakpoints": true
-    },
-    {
-      "idx": 5,
-      "version": "7",
-      "when": 1725033619277,
-      "tag": "0005_jittery_betty_brant",
+      "when": 1724168664732,
+      "tag": "0001_busy_tinkerer",
       "breakpoints": true
     }
   ]
