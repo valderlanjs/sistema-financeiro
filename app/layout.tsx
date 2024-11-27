@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Sistema Financeiro",
-  description: "Sistema de gerenciamento financeiro",
+  description: "Gerenciamento do sistema financeiro",
 };
 
 export default function RootLayout({
